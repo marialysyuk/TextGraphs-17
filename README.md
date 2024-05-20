@@ -27,6 +27,6 @@ The baseline is obtained with GPT-4 with CoT prompting and provided set of answe
 1) Ask LLM to rephrase the question to make it clearer for LLM to answer
 2) Add Wikidata descriptions of entities as a context to the prompt:
 
-<img src="Images/qa_example_v2.png" alt="drawing" width="450" height ="300"/>
+<img src="Images/qa_example_v2.png" alt="drawing" width="450" height ="400"/>
 
 
