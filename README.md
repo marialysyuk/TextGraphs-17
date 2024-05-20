@@ -12,4 +12,4 @@ The baseline is obtained with GPT-4 with CoT prompting and provided set of answe
 CoT prompt:
 
 #### Detection of the center of the cells
-<img src="Images/base_prompt.pdf" alt="drawing" width="700" height ="300"/>
+<img src="Images/base_prompt.png" alt="drawing" width="700" height ="300"/>
