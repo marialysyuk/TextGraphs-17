@@ -9,7 +9,10 @@ The shared task is to select a KG entity (out of several candidates) which corre
 
 The baseline is obtained with GPT-4 with CoT prompting and provided set of answers.
 
-CoT prompt:
+#### CoT prompt:
+<img src="Images/base_prompt.png" alt="drawing" width="300" height ="300"/>
 
-#### Detection of the center of the cells
-<img src="Images/base_prompt.png" alt="drawing" width="700" height ="300"/>
+### Answer example:
+
+<img src="Images/qa_example.png" alt="drawing" width="300" height ="300"/>
+
