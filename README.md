@@ -11,4 +11,5 @@ The baseline is obtained with GPT-4 with CoT prompting and provided set of answe
 
 CoT prompt:
 
-\textit{Generate the answer using chain-of-thought reasoning. After generation verify that your answer is in the set of possible answers given in the question. If your answer is not there, select the answer from the set. At the end write the short answer after the phrase ``So the answer is:''}.
+#### Detection of the center of the cells
+<img src="Images/base_prompt.pdf" alt="drawing" width="700" height ="300"/>
