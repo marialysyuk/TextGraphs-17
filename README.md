@@ -12,7 +12,21 @@ The baseline is obtained with GPT-4 with CoT prompting and provided set of answe
 #### CoT prompt:
 <img src="Images/base_prompt.png" alt="drawing" width="450" height ="300"/>
 
-### Answer example:
+#### Answer example:
 
 <img src="Images/qa_example.png" alt="drawing" width="450" height ="300"/>
+
+### Main tricks
+
+#### Fixing multiple answers 
+
+1) Among identical answers select the one with the minimal length of subgraph
+2) Add Wikidata description of the answer and select the answer with the largest cosine similarity between mean of the fastText embeddings of the question and answer
+
+#### Fixing NA answers
+1) Ask LLM to rephrase the question to make it clearer for LLM to answer
+2) Add Wikidata descriptions of entities as a context to the prompt:
+
+<img src="Images/qa_example_v2.png" alt="drawing" width="450" height ="300"/>
+
 
