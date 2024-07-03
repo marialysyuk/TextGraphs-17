@@ -29,4 +29,23 @@ The baseline is obtained with GPT-4 with CoT prompting and provided set of answe
 
 <img src="Images/qa_example_v2.png" alt="drawing" width="450" height ="400"/>
 
+### Requirements
+
+All code is runable with requirements installed from: 
+
+`requirements.txt`
+
+### Code
+
+In the notebook `TextGraphs_posteval_github_best.ipynb` is the code for all experiemnts tricks with data files stored in the `Data` folder.
+
+In the notebook `TextGraphs_GPT4_prompt_example.ipynb` is the example of the base prompt to GPT4.
+
+In the notebook `Wiki_collect_answer_description.ipynb` you may find a function for the collection of the Wikidata description of the entity.
+
+
+
+
+
+
 
