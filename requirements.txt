@@ -1,0 +1,11 @@
+fuzzywuzzy
+python-Levenshtein
+sister
+scipy
+ast
+tqdm
+json
+pandas
+requests
+time
+openai==0.28
