@@ -43,6 +43,17 @@ In the notebook `TextGraphs_GPT4_prompt_example.ipynb` is the example of the bas
 
 In the notebook `Wiki_collect_answer_description.ipynb` you may find a function for the collection of the Wikidata description of the entity.
 
+### Citations
+
+Please cite the paper and star this repo if you use the method and find it interesting/useful, thanks! Feel free to contact lysyuk.m.v@gmail.com or open an issue if you have any questions.
+
+@inproceedings{lysyuk2024skoltech,
+  title={Skoltech at TextGraphs-17 Shared Task: Finding GPT-4 Prompting Strategies for Multiple Choice Questions},
+  author={Lysyuk, Maria and Braslavski, Pavel},
+  booktitle={Proceedings of the Graph-based Methods for Natural Language Processing (TextGraphs)},
+  year={2024}
+}
+
 
 
 
