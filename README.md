@@ -22,6 +22,7 @@ The baseline is obtained with GPT-4 with CoT prompting and provided set of answe
 
 1) Among identical answers select the one with the minimal length of subgraph
 2) Add Wikidata description of the answer and select the answer with the largest cosine similarity between mean of the fastText embeddings of the question and answer
+3) Use [Konstruktor](https://github.com/s-nlp/konstruktor) to rank relations of the question entities (collected from the extracted subgraphs) and filter out wrong answers
 
 #### Fixing NA answers
 1) Ask LLM to rephrase the question to make it clearer for LLM to answer
@@ -42,6 +43,8 @@ In the notebook `TextGraphs_posteval_github_best.ipynb` is the code for all expe
 In the notebook `TextGraphs_GPT4_prompt_example.ipynb` is the example of the base prompt to GPT4.
 
 In the notebook `Wiki_collect_answer_description.ipynb` you may find a function for the collection of the Wikidata description of the entity.
+
+In the notebook `Ranking.ipynb` you may find prepairing inference file to [Konstruktor](https://github.com/s-nlp/konstruktor) for filtering out multiple identical answers by dropping the paths with unrelevant relations of question entities.
 
 ### Citations
 
